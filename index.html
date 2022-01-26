@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+
+<head>
+	<!-- Stylesheets & Title -->
+    <meta charset="utf-8">
+
+    <meta name="author" content="RCK Games">
+    <meta name="description" content="WebAR de RCK Games">
+
+    <title>RCK WebAR</title>
+    <link rel="icon" type="image/png" href="rck_favicon.png">
+
+    <!-- Model Viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+
+	</header>
+
+
+	<!-- Main -->
+    <main>
+
+        <!-- iOS AR -->
+        <div>
+            <a rel="ar" href="3D_Models/PegasusTrail.usdz">
+                <img src="rck_favicon.png">
+            </a>
+        </div>
+
+        <!-- AR with Model Viewer -->
+        <model-viewer 
+            alt="Modelo 3D de tennis Nike" 
+            src="3D_Models/PegasusTrail.glb"
+            ios-src="3D_Models/PegasusTrail.usdz"
+            ar ar-scale="fixed"
+            poster="rck_favicon.png"
+            camera-controls>
+        </model-viewer>
+
+    </main>
+    
+
+	<!-- Footer -->
+	<footer class="dark">
+		<div class="container">
+
+
+		</div>
+
+		<!-- Copyrights -->
+		<div id="copyrights">
+			<div class="container">
+
+
+			</div>
+		</div>
+
+	</footer>
+
+	<!-- Scripts -->
+
+</body>
+</html>
